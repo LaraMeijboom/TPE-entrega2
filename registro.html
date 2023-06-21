@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Center | Electric edition</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/guitarra (1).png">
+    <script defer src="./js/script.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="contenedor-encabezado">
+            <div class="btn_menu"><a><img src="./img/menu-regular-24.png" class="logoMenu" alt=""></a></div>
+            <nav class="menu">
+              <ul class="navigation">
+                   <li><a href="index.html">HOME</a></li>
+                   <li><a href="guitarras.html">GUITARRAS</a></li>
+                   <li><a href="registro.html">REGISTRATE</a></li>
+               </ul>
+            </nav> 
+            <div class="titulo-presentacion">
+                <h1>UNITE A LA COMUNIDAD</h1>
+                <p>¡Registrate para no perderte novedades, descuentos, lanzamientos y más!</p>
+                <img id="scroll-icon" src="./img/flecha-hacia-abajo.png" alt="">
+            </div>
+        </div>
+    </header>
+    <section>
+          <div class="formulario">
+            <form  id="form">
+                <label for="nombre">Nombre de usuario:</label>
+                <input type="text" id="nombre" name="user" maxlength="15" required>
+               <label for="email">E-mail:</label>
+               <input type="email" id="email" name="email" required>
+               <label for="codigo">Código numérico:</label>
+               <input type="number" id="codigo" name="captcha" required>
+                <p id="numeroRandom"></p>
+
+                <button type="submit" class="btnVerificar">Verificar</button>
+                <p id="resultado"></p>
+            </form>
+        </div>
+    </section>
+    <footer>
+            <img src="./img/instagram.png" alt="">
+            <img src="./img/facebook.png" alt="">
+            <img src="./img/twitter.png" alt="">
+    </footer>
+    </body>
+    </html>

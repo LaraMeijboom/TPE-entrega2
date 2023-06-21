@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Center | Electric edition</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/guitarra (1).png">
+    <script defer src="./js/menu.js"></script>
+    <script defer src="./js/tabla.js"></script>
+</head>
+<body>
+    <header>
+        <div class="contenedor-encabezado">
+            <div class="btn_menu"> <img src="./img/menu-regular-24.png" class="logoMenu" alt=""></div>
+             <nav class="menu">
+               <ul class="navigation">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="guitarras.html">GUITARRAS</a></li>
+                    <li><a href="registro.html">REGISTRATE</a></li>
+                </ul>
+             </nav> 
+            <div class="titulo-presentacion">
+                <h1>ELECTRIC EDITION</h1>
+                <p>Nuestras últimas producciones limitadas</p>
+                <img id="scroll-icon" src="./img/flecha-hacia-abajo.png" alt="">
+            </div>
+        </div>
+    </header>
+    <section>
+        <main>
+    <div class="contenedor-guitarras">
+         <img src="./img/guitar1.jpg" id="foto-guitar">
+         <img src="./img/guitar2.jpg" id="foto-guitar">
+         <img src="./img/guitar3.jpg" id="foto-guitar">
+</div>
+<div class="info">
+    <h1>Selección Paul Reed Smith</h1>
+    <p>Estas guitarras producidas en colaboración con la marca PRS son de máxima calidad. Hechas con los mejores materiales, brindan un cálido y vibrante sonido.</p>
+<ul class="lista_info">
+    <li>Modern Eagle V: Equipada con humbuckers TCI en la posición del mástil y el puente. Una simple bobina -singlecoil- PRS en la posición media. Ccontrolados por perillas de volumen y tono con push / pull y un selector de cinco vías.</li>
+    <li>SE Mccarty: Integrada de un cuerpo sólido con cuerpo de caoba. 2 pastillas Humbucking - Oro negro. Diapasón de palisandro. Cuello de caoba. Parte superior de arce.</li>
+    <li>SE DGT: Diseñada con un mástil de Madera Caoba. Construcción del cuello Una pieza. Barra de armadura PRS de doble efecto. Forma del cuello DGT. Profundidad del cuello 27/32" Ancho del diapasón 1 21/32".</li>
+</ul>
+<p>¡Realizá tu pedido para poder añadir al stock tu guitarra ideal!</p>
+
+<form id="formulario">
+    <label for="marca">MARCA</label>
+    <input type="text" name="marca" id="marca" required>
+    <label for="tipo">MODELO</label>
+    <input type="text"name="tipo" id="tipo" required>
+    <label for="precio">PRESUPUESTO</label>
+    <input type="text" name="presupuesto" id="precio" required>
+    <button type="button" id="btnAgregar">AGREGAR</button>
+    <button type="button" id="btnAgregar3">AGREGAR 3</button>
+    <button type="button" id="btnVaciar">VACIAR</button>
+
+</form>
+<table id="tabla">
+    <thead class="encabezado_tabla" id="encabezado_tabla">
+        <tr>
+            <th>MARCA</th>
+            <th>MODELO</th>
+            <th>PRESUPUESTO</th>
+        </tr>
+    </thead>
+    <tbody class="cuerpo_tabla" id="cuerpo_tabla">  
+    </tbody>
+    </table>
+</div>
+</main>
+    </section>
+<footer>
+    <img src="./img/instagram.png" alt="">
+    <img src="./img/facebook.png" alt="">
+    <img src="./img/twitter.png" alt="">
+</footer>
+</body>
+</html>
