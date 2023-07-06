@@ -12,7 +12,7 @@ let guitars = [
 ];
 
 let tabla = document.querySelector("#cuerpo_tabla");
-let formulario = document.querySelector("#formulario");
+let formularioo = document.querySelector("#formulario");
 
 function agregar() {
   let formData = new FormData(formulario);
