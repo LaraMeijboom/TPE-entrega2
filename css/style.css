@@ -181,6 +181,12 @@ footer img {
   padding: 10px;
   cursor: pointer;
 }
+.colorExpensive {
+  background-color: rgb(194, 134, 134);
+}
+.colorCheap {
+  background-color: rgb(136, 202, 136);
+}
 
 @media only screen and (min-width: 660px) {
   .btn_menu {
