@@ -1,0 +1,13 @@
+<?php
+require './templates/header.phtml';
+require './templates/footer.phtml';
+?>
+
+<ul class="seasonsList">
+    <?php foreach($seasons as $season){ ?>
+        <li>
+        <b><?= $season->season_id ?></b>
+        
+            </li>
+    <?php } ?>
+</ul>
